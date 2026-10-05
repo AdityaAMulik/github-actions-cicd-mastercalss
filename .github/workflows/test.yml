@@ -7,7 +7,7 @@ on:
   
 # Jobs in the workflow
 jobs:
-  code-checkout:
+  build:
     runs-on: ubuntu-latest
     # Steps in the workflow
     steps:
