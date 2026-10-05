@@ -1,0 +1,15 @@
+# Name of the workflow
+name: Test
+
+# When the workflow should run
+on:
+  workflow_call: 
+  
+# Jobs in the workflow
+jobs:
+  code-checkout:
+    runs-on: ubuntu-latest
+    # Steps in the workflow
+    steps:
+      - name: Clone the code
+        run: echo "Code Test using Sonar / Pytest"
